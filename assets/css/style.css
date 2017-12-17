@@ -48,6 +48,13 @@ header {
     display: inline-block;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
 nav {
     float: right;
     width: 230px;
@@ -60,6 +67,7 @@ nav {
 .nav-index {
     display: inline-block;
     text-decoration: none;
+    font-size: 17px;
     color: #777777;
     background-color: #ffffff;
     width: 70px;
@@ -71,6 +79,7 @@ nav {
 .nav-portfolio {
     display: inline-block;
     text-decoration: none;
+    font-size: 17px;
     color: #777777;
     background-color: #ffffff;
     width: 70px;
@@ -82,6 +91,7 @@ nav {
 .nav-skills {
     display: inline-block;
     text-decoration: none;
+    font-size: 17px;
     color: #777777;
     background-color: #ffffff;
     width: 70px;
@@ -100,13 +110,19 @@ nav {
 }
 
 .nav-index:hover {
-    background-color: #aeb2b2;
+    background-color: seagreen;
     color: #ffffff;
     font-weight: bold;
 }
 
 .nav-portfolio:hover {
-    background-color: #aeb2b2;
+    background-color: seagreen;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-skills:hover {
+    background-color: seagreen;
     color: #ffffff;
     font-weight: bold;
 }
@@ -128,7 +144,7 @@ h1 {
     background-color: #ffffff;;
     display: inline-block;
     border: 1px solid #aeb2b2;
-    margin-right: 235px;
+    margin-right: 253px;
     margin-bottom: 38px;
 }
 
@@ -144,6 +160,7 @@ h1 {
 
 .article-heading {
     font-size: 30px;
+    color: seagreen;
     line-height: 75px;
     width: 100%;
     vertical-align: middle;
@@ -165,6 +182,7 @@ h1 {
 }
 
 .bio-text {
+    color: #777777;
     vertical-align: top;
     text-align: justify;
     font-size: 17px;
@@ -174,7 +192,7 @@ h1 {
 
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #808080;
+    color: seagreen;
     font-weight: bold;
     text-align: left;
     font-size: 22px;
@@ -228,7 +246,6 @@ h3 {
 footer {
     background-color: #666666;
     color: #ffffff;
-    position: fixed;
     left: 0;
     bottom: 0;
     height: 84px;
@@ -300,18 +317,40 @@ footer {
     margin-bottom: 38px;
 }
 
+.skill-div {
+    display: inline-block;
+    text-align: center;
+}
+
+.skill-div p {
+    margin-top: 20px;
+    color: #777777;
+    font-size: 17px;
+}
+
+.skills-divider {
+    margin-bottom: 50px;
+}
+
+
 .skill-type {
     text-align: left;
+    font-size: 23px;
 }
 
 .skill-image {
-    max-height: 90px;
+    max-height: 80px;
     max-width: 100%;
     height: auto;
+    margin: 0px 20px 0px 20px;
 }
 
-.text-center {
+.skills-row {
+    height: 130px;
+    margin: 20px 0px 20px 0px;
+
 }
+
 
 /*@MEDIA 980PX*/
 
