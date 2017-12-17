@@ -1,0 +1,491 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    background-image: url("../images/nice_snow.png");
+    margin: 0px;
+}
+
+.content-area {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.header-line {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 72px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #cccccc;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-area {
+    width: 1300px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+header {
+    float: left;
+    height: 74px;
+    width: 270px;
+}
+
+.name {
+    vertical-align: middle;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: seagreen;
+    line-height: 74px;
+    font-size: 30px;
+    padding: 0px 38px 0px 30px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    width: 230px;
+    text-align: center;
+    line-height: 74px;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-index {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    width: 70px;
+    line-height: 20px;
+    border-right: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.nav-portfolio {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    width: 70px;
+    line-height: 20px;
+    border-right: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.nav-skills {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    width: 70px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.nav-contact {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    background-color: #ffffff;
+    width: 70px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.nav-index:hover {
+    background-color: #aeb2b2;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-portfolio:hover {
+    background-color: #aeb2b2;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    margin: 80px 0px 37px 0px;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: gray;
+    font-weight: bold;
+}
+
+.about-me {
+    width: 715px;
+    padding: 0px 30px 40px 30px;
+    background-color: #ffffff;;
+    display: inline-block;
+    border: 1px solid #aeb2b2;
+    margin-right: 235px;
+    margin-bottom: 38px;
+}
+
+.contact-me {
+    width: 588px;
+    padding: 0px 30px 40px 30px;
+    background-color: #ffffff;;
+    display: inline-block;
+    border: 1px solid #aeb2b2;
+    margin-right: 40px; 
+    margin-bottom: 38px;
+}
+
+.article-heading {
+    font-size: 30px;
+    line-height: 75px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bio-divider {
+    margin: 0px;
+    height: 3px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.image {
+    float: left;
+    height: 200px;
+    padding-right: 25px;
+    padding-top: 18px;    
+}
+
+.bio-text {
+    vertical-align: top;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 18px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #808080;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    line-height: 16px;
+    padding-bottom: 18px;
+}
+
+/*Connect with Me Section*/
+.aside {
+    float: right;
+    width: 208px;
+    background-color: #ffffff;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #aeb2b2;
+}
+
+.img__wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.connect-divider {
+    height: 2px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.connect-image-github {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+    margin-right: 9.5px;
+}
+
+.connect-image-linkedin {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+    margin-right: 9.5px;
+}
+
+.connect-image-email {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    padding-top: 23px;
+ }
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 84px;
+    width: 100%;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: seagreen;
+    z-index: 100;
+ }
+
+.copyright {
+    font-size: 12px;
+    line-height: 94px;
+    vertical-align: middle;
+}
+
+
+ /*Portfolio Section*/
+
+.portfolio {
+    width: 1240px;
+    padding: 0px 30px 40px 30px;
+    background-color: #ffffff;;
+    display: inline-block;
+    border: 1px solid #aeb2b2;
+    margin-bottom: 38px;
+}
+
+.image-div {
+    display: inline-block;
+    width: 150px;
+    padding-left: 50px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.portfolio-image {
+    width: 150px;
+    margin:auto;
+}
+
+.img__description {
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    vertical-align: middle;
+    color: #808080;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.image-div:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Skills Section*/
+
+.skills {
+    width: 1240px;
+    padding: 0px 30px 40px 30px;
+    background-color: #ffffff;;
+    display: inline-block;
+    border: 1px solid #aeb2b2;
+    margin-bottom: 38px;
+}
+
+.skill-type {
+    text-align: left;
+}
+
+.skill-image {
+    max-height: 90px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+}
+
+/*@MEDIA 980PX*/
+
+
+@media only screen 
+    and (max-width: 980px) {
+    
+    .content-area {
+        width: 100%;
+        margin-left: 126px;
+    }
+
+    .header-area {
+        width: 100%;
+        margin: 0 126px;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+        margin-right: 166px;
+    }
+
+    .about-me {
+        width: 320px;
+        margin-right: 40px;
+    }
+
+    .image {
+        float: none;
+    }  
+
+    .portfolio {
+        width: 320px;
+        margin-right: 40px;
+    }
+
+    .contact-me {
+        width: 320px;
+        margin-right: 40px;
+    }
+
+    .message-input {
+        width: 100%;
+    }
+}
+
+
+/*@MEDIA 768PX*/
+
+
+@media only screen 
+    and (max-width: 768px) {
+    
+    section {
+        display: block;
+    }
+
+    .header-area {
+        width: auto;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav {
+        float: right;
+        width: auto;
+        margin-right: 0;
+    }
+    
+    .content-area {
+        width: 100%;
+        margin: 0;
+        padding-top: 0;
+    }
+    
+    .about-me {
+        width: auto;
+        float: none;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .image {
+        float: left;
+    }
+
+    .portfolio {
+        width: auto;
+        float: none;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .contact-me {
+        width: auto;
+        float: none;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .aside {
+        width: auto;
+        float: none;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 95px;
+    }
+
+}
+
+
+/*@MEDIA 640PX*/
+
+
+@media only screen 
+    and (max-width: 640px) {
+    header {
+        position: static;
+        width: 100%;
+    }
+
+    .header-area {
+       width: 100%;
+       padding: 0;
+    }
+
+    .name   {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        line-height: 40px;
+        background: white;
+    }
+
+    .nav-link {
+        width: 32%;
+    }
+    
+    .content-area {
+        width: auto;
+    }
+    
+    .about-me {
+        width: auto;
+    }
+    
+    .image {
+        float: none;
+    }    
+
+    .portfolio {
+        width: auto;
+    }
+
+    .contact-me {
+        width: auto;
+    }
+
+    footer {
+        position: fixed;
+    }
+}
+
+
+
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}    
+
