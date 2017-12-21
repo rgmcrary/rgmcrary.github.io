@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <title>Rich McRary</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Rich McRary</title>
 </head>
 
 <body>
-<div class="header-line">
-    <div class="header-area">
-        <header>
-            <h1 class="name">Rich McRary</h1>
-        </header>
 
-        <nav>
-            <a class="nav-index" href="#about" title="About">About</a>
-            <a class="nav-portfolio" href="#portfolio" title="Portfolio">Portfolio</a>
-            <a class="nav-skills" href="#skills" title="Skills">Skills</a>
-        </nav>
+<div class="header-line">
+
+    <div class="container">
+        <div class="row no-gutter">
+            <div class="col-12 col-md-7 header-area">
+                <div class="name">Rich McRary</div>
+            </div>
+
+
+            <div class="col-12 col-md-5">
+                <div class="section-bar">
+                    <a class="nav-index" href="#about" title="About">About</a>
+                    <a class="nav-portfolio" href="#portfolio" title="Portfolio">Portfolio</a>
+                    <a class="nav-skills" href="#skills" title="Skills">Skills</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<!--About Me Section-->
-<a name="about" class="anchor"></a>
-<div class="content-area">
-    <section>
-        <article class="about-me">
+<div class="container">
+
+    <!--About Me Section-->
+    <a name="about" class="anchor"></a>
+    <section class="row">
+        <article class="col-12 col-sm-8 about-me">
             <h1 class="article-heading">About Me</h1>
             <hr class="bio-divider">
             <img class="image" src="assets/images/rich_mcrary.jpg" alt="Rich McRary">
@@ -42,32 +51,36 @@
             </p>
         </article>
 
-        <aside class="aside">
-            <h3>Connect with Me</h3>
+        <!--Aside Section-->
+        <aside class="col-12 offset-sm-1 col-sm-3 aside">
+            <h3 class="connect">Connect with Me</h3>
             <hr class="connect-divider">
-            <div class="img__wrap">
-                <a href="https://github.com/rgmcrary?tab=repositories" target=_blank>
-                    <img class="connect-image-github" src="assets/images/github.png" alt="Github">
-                </a>
-            </div>
-            <div class="img__wrap">
-                <a href="https://www.linkedin.com/in/rich-mcrary-869648a/" target=_blank><img
-                        class="connect-image-linkedin" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-            </div>
-            <div class="img__wrap">
-                <a href="mailto:rgmcrary@gmail.com"><img class="connect-image-email" src="assets/images/email.png"
-                                                         alt="Email Me"></a>
+            <div class="connect-image-div">
+                <div class="img__wrap">
+                    <a href="https://github.com/rgmcrary?tab=repositories" target=_blank>
+                        <img class="connect-image-github" src="assets/images/github.png" alt="Github">
+                    </a>
+                </div>
+                <div class="img__wrap">
+                    <a href="https://www.linkedin.com/in/rich-mcrary-869648a/" target=_blank><img
+                            class="connect-image-linkedin" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <div class="img__wrap">
+                    <a href="mailto:rgmcrary@gmail.com"><img class="connect-image-email" src="assets/images/email.png"
+                                                             alt="Email Me"></a>
+                </div>
             </div>
         </aside>
     </section>
 
+
     <!--Portfolio Section-->
     <a name="portfolio" class="anchor"></a>
-    <section>
-        <article class="portfolio">
+    <section class="row">
+        <article class="col portfolio">
             <h1 class="article-heading">Portfolio</h1>
-            <hr class="bio-divider">
-            <div class="bio-text">
+            <hr class="portfolio-divider">
+            <div class="portfolio-image-div">
                 <div class="image-div">
                     <a href="https://developer-ocs.herokuapp.com/" target="_blank">
                         <img class="portfolio-image" src="assets/images/devOCS.png" alt="Developer-OCS">
@@ -105,8 +118,8 @@
 
     <!--Skills Section-->
     <a name="skills" class="anchor"></a>
-    <section>
-        <article class="skills">
+    <section class="row">
+        <article class="col skills">
             <h1 class="article-heading">Skills</h1>
             <hr class="bio-divider skills-divider">
             <div>
@@ -141,8 +154,8 @@
                 <hr class="bio-divider">
                 <div class="skills-row">
                     <!--<div class="skill-div">-->
-                        <!--<img alt src="assets/images/skills/angular.png" class="skill-image">-->
-                        <!--<p>Angular</p>-->
+                    <!--<img alt src="assets/images/skills/angular.png" class="skill-image">-->
+                    <!--<p>Angular</p>-->
                     <!--</div>-->
                     <div class="skill-div">
                         <img alt src="assets/images/skills/javascript.png" class="skill-image">
@@ -161,8 +174,8 @@
                         <p>React</p>
                     </div>
                     <!--<div class="skill-div">-->
-                        <!--<img alt src="assets/images/skills/vue.png" class="skill-image">-->
-                        <!--<p>Vue</p>-->
+                    <!--<img alt src="assets/images/skills/vue.png" class="skill-image">-->
+                    <!--<p>Vue</p>-->
                     <!--</div>-->
                 </div>
             </div>
@@ -180,8 +193,8 @@
                         <p>mySQL</p>
                     </div>
                     <!--<div class="skill-div">-->
-                        <!--<img alt src="assets/images/skills/ruby.png" class="skill-image">-->
-                        <!--<p>Ruby</p>-->
+                    <!--<img alt src="assets/images/skills/ruby.png" class="skill-image">-->
+                    <!--<p>Ruby</p>-->
                     <!--</div>-->
                 </div>
             </div>
@@ -199,16 +212,13 @@
                         <p>Heroku</p>
                     </div>
                     <!--<div class="skill-div">-->
-                        <!--<img alt src="assets/images/skills/python.png" class="skill-image">-->
-                        <!--<p>Python</p>-->
+                    <!--<img alt src="assets/images/skills/python.png" class="skill-image">-->
+                    <!--<p>Python</p>-->
                     <!--</div>-->
                 </div>
-
             </div>
-
         </article>
     </section>
-
 </div>
 
 <div>
