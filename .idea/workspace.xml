@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c77465d-f3cc-4a7f-a66b-4384366c20e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-    </list>
+    <list default="true" id="0c77465d-f3cc-4a7f-a66b-4384366c20e3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
-              <caret line="359" column="18" lean-forward="false" selection-start-line="359" selection-start-column="18" selection-end-line="359" selection-end-column="18" />
+            <state relative-caret-position="857">
+              <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,12 +190,12 @@
       <workItem from="1513459863827" duration="4308000" />
       <workItem from="1513470720431" duration="2972000" />
       <workItem from="1513536650196" duration="988000" />
-      <workItem from="1513643190104" duration="18461000" />
+      <workItem from="1513643190104" duration="18556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42090000" />
+    <option name="totallyTimeSpent" value="42185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="24" width="2350" height="1310" extended-state="0" />
@@ -399,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="359" column="18" lean-forward="false" selection-start-line="359" selection-start-column="18" selection-end-line="359" selection-end-column="18" />
+        <state relative-caret-position="857">
+          <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
           <folding />
         </state>
       </provider>
