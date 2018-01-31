@@ -55,52 +55,30 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.nav-index {
+.nav-item {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     color: #777777;
     background-color: #ffffff;
-    width: 75px;
     line-height: 20px;
     border-right: 1px solid #eee;
     vertical-align: middle;
 }
 
-.nav-portfolio {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    color: #777777;
-    background-color: #ffffff;
+
+.nav-index {
+    width: 75px;
+}
+
+.nav-portfolio, .nav-resume {
     width: 85px;
-    line-height: 20px;
-    border-right: 1px solid #eee;
-    vertical-align: middle;
 }
 
 .nav-skills {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    color: #777777;
-    background-color: #ffffff;
     width: 70px;
-    line-height: 20px;
-    vertical-align: middle;
-}
-
-.nav-contact {
-    display: inline-block;
-    text-decoration: none;
-    color: #777777;
-    background-color: #ffffff;
-    width: 70px;
-    line-height: 20px;
-    vertical-align: middle;
+    border-right: none;
 }
 
 .nav-index:hover {
@@ -162,6 +140,10 @@ h1 {
     font-size: 17px;
     line-height: 25px;
     padding-top: 18px;
+}
+
+.paragraph2 {
+    padding-top: 0px;
 }
 
 /*Connect with Me Section*/
@@ -254,7 +236,7 @@ h3 {
 .img__description {
     text-align: center;
     height: 35px;
-    width: 150px;
+    width: 152px;
     vertical-align: middle;
     color: #808080;
     visibility: hidden;
@@ -329,7 +311,7 @@ footer {
     vertical-align: middle;
 }
 
-/*@MEDIA 768PX*/
+/*Responsive Widths*/
 
 @media only screen
 and (max-width: 768px) {
