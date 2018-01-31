@@ -91,6 +91,11 @@ header {
     font-weight: bold;
 }
 
+.nav-resume:hover {
+    color: seagreen;
+    font-weight: bold;
+}
+
 .nav-skills:hover {
     color: seagreen;
     font-weight: bold;
@@ -130,20 +135,22 @@ h1 {
 .image {
     float: left;
     height: 200px;
-    padding-right: 25px;
-    padding-top: 18px;
+    padding: 18px 25px;
+}
+
+.bio {
+    color: #777777;
+    height: 200px;
+    font-size: 17px;
+    line-height: 25px;
+
 }
 
 .bio-text {
-    color: #777777;
-    vertical-align: top;
-    font-size: 17px;
-    line-height: 25px;
-    padding-top: 18px;
-}
-
-.paragraph2 {
-    padding-top: 0px;
+    height: 200px;
+    vertical-align: middle;
+    padding-top: 45px;
+    margin-bottom: 0px;
 }
 
 /*Connect with Me Section*/
@@ -236,17 +243,17 @@ h3 {
 .img__description {
     text-align: center;
     height: 35px;
-    width: 152px;
+    width: 165px;
     vertical-align: middle;
     color: #808080;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
+    /*visibility: hidden;*/
+    /*opacity: 0;*/
+    /*transition: opacity .2s, visibility .2s;*/
 }
 
 .image-div:hover .img__description {
-    visibility: visible;
-    opacity: 1;
+    color: seagreen;
+    font-weight: bold;
 }
 
 /*Skills Section*/
