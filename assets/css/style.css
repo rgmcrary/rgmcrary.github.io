@@ -290,7 +290,8 @@ h3 {
 }
 
 .skills-row {
-    margin: 20px 0px 20px 0px;
+    /*margin: 20px 0px 20px 0px;*/
+    text-align: center;
 }
 
 /*Footer Section*/
