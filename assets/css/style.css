@@ -264,6 +264,7 @@ h3 {
 .skill-div {
     display: inline-block;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .skill-div p {
@@ -273,7 +274,7 @@ h3 {
 }
 
 .skills-divider {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .skill-type {
