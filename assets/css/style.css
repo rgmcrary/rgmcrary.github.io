@@ -8,8 +8,8 @@ body {
 /*Navbar*/
 
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .header-line {
@@ -66,7 +66,6 @@ header {
     border-right: 1px solid #eee;
     vertical-align: middle;
 }
-
 
 .nav-index {
     width: 75px;
@@ -140,16 +139,14 @@ h1 {
 
 .bio {
     color: #777777;
-    height: 200px;
     font-size: 17px;
     line-height: 25px;
-
+    padding-bottom: 22px;
 }
 
 .bio-text {
-    height: 200px;
     vertical-align: middle;
-    padding-top: 45px;
+    padding-top: 15px;
     margin-bottom: 0px;
 }
 
@@ -327,7 +324,7 @@ and (max-width: 768px) {
     }
 
     .header-line {
-        height:145px;
+        height: 145px;
     }
 
     .name {
@@ -335,18 +332,18 @@ and (max-width: 768px) {
         text-align: center;
     }
 
-    .section-bar{
+    .section-bar {
         text-align: center;
     }
 
-    .about-me, .aside{
-        margin-top:170px;
+    .about-me, .aside {
+        margin-top: 170px;
     }
 }
 
 @media only screen
 and (max-width: 575px) {
-    .aside{
+    .aside {
         margin-top: 40px;
     }
 }
